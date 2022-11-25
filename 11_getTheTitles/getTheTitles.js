@@ -1,4 +1,8 @@
-const getTheTitles = function() {
+const getTheTitles = function(books) {
+    var titles=[]
+    books.forEach(element => {titles.push(element.title)
+    });
+    return titles
 
 };
 
